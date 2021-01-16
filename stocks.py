@@ -40,3 +40,6 @@ class Stock(object):
             return (self.open_price - market_price) * self.shares
         else:
             return None 
+
+t = Stock()
+t.symbol = 'TSLA'
