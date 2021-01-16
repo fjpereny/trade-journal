@@ -39,6 +39,4 @@ class Stock(object):
         elif self.long_position == False:
             return (self.open_price - market_price) * self.shares
         else:
-            return None
-
-            
+            return None 
