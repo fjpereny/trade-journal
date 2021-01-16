@@ -41,4 +41,5 @@ class Stock(object):
         else:
             return None
 
-            
+t = Stock()
+t.symbol = "TSLA"
